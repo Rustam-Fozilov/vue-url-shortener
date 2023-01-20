@@ -4,7 +4,7 @@
 
       <div class="title">
         <h1>Shortly</h1>
-        <p>Url shortener app using REST API in Vue.js Framework</p>
+        <p>Url shortener app using Options API in Vue.js Framework</p>
       </div>
 
       <div class="form-control">
