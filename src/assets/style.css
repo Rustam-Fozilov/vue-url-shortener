@@ -33,7 +33,7 @@ html, body {
     left: 0;
     right: 0;
     text-align: center;
-    font-family: Inter-Regular;
+    font-family: Inter-Regular, sans-serif, Arial;
     margin-bottom: 20px;
 }
 
@@ -50,11 +50,11 @@ html, body {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 30px;
-    font-family: 'Inter-Bold';
+    font-family: 'Inter-Bold', sans-serif, Arial;
 }
 
 .title p {
-    font-family: Inter-Regular;
+    font-family: Inter-Regular, sans-serif, Arial;
     font-size: 1rem;
     letter-spacing: -1px;
     text-align: center;
@@ -89,7 +89,7 @@ html, body {
 .form-input input {
     width: 70%;
     margin-left: 10px;
-    font-family: Inter-Regular;
+    font-family: Inter-Regular, sans-serif, Arial;
     font-size: 1rem;
     background: transparent;
     float: left;
@@ -103,7 +103,7 @@ html, body {
     color: #fff;
     border-radius: 50px;
     border: none;
-    font-family: Inter-Regular;
+    font-family: Inter-Regular, sans-serif, Arial;
     font-size: 1rem;
     padding: 13px 25px;
     cursor: pointer;
@@ -114,7 +114,7 @@ html, body {
 }
 
 .result {
-    font-family: Inter-Regular;
+    font-family: Inter-Regular, sans-serif, Arial;
     font-size: 1rem;
     letter-spacing: -1px;
     margin-top: 25px;
@@ -135,7 +135,7 @@ html, body {
 }
 
 .error {
-    font-family: Inter-Regular;
+    font-family: Inter-Regular, sans-serif, Arial;
     font-size: 1rem;
     color: red;
     margin-top: 20px;
@@ -154,6 +154,7 @@ html, body {
 @media only screen and (max-width: 500px) {
     .title h1 {
         margin-top: 50px;
+	font-size: 4rem;
     }
 
     .form-input {
